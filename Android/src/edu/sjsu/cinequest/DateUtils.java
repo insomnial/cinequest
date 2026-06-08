@@ -12,8 +12,8 @@ public class DateUtils {
     public static final int FESTIVAL_TEST_MODE = 1;
     public static final int OFFSEASON_TEST_MODE = 2;
     public static final int UNINITIALIZED_MODE = -1;
-    private static int mode = UNINITIALIZED_MODE;
-    // private static int mode = FESTIVAL_TEST_MODE;
+    // private static int mode = UNINITIALIZED_MODE;
+    private static int mode = FESTIVAL_TEST_MODE;
 
     /*
      * If you need more time formats, add a constant here, and be sure to
@@ -46,7 +46,7 @@ public class DateUtils {
     private static String[] festivalDates =
     {
     "2013-02-26", "2013-02-27",
-    "2013-02-28", "2013-02-29", "2013-03-01", "2013-03-02", 
+    "2013-02-28", "2013-03-01", "2013-03-02", 
     "2013-03-03", "2013-03-04", "2013-03-05", "2013-03-06",
     "2013-03-07", "2013-03-08", "2013-03-09", "2013-03-10"
     };
